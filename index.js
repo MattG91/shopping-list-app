@@ -21,11 +21,11 @@ $(function() {
 });
 
 // Add line-through to item with "check" buttom
-$(".shopping-list").on("click", ".shopping-item-toggle", function(event) {
-   $(this).closest("li").find(".shopping-item").toggleClass("shopping-item__checked");
+$('.shopping-list').on('click', '.shopping-item-toggle', function(event) {
+   $(this).closest('li').find('.shopping-item').toggleClass('shopping-item__checked');
  });
 
 // Delete item with "delete" button
-$(".shopping-list").on("click", ".shopping-item-delete", function(event) {
-  $(this).closest("li").remove();
+$('.shopping-list').on('click', '.shopping-item-delete', function(event) {
+  $(this).closest('li').remove();
 });
